@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "appsupport"
+version = "0.1.0"
+description = "Utilities for app-support URLs and app-store app metadata"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "AppSupport" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
